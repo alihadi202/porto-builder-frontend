@@ -3,11 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import "./index.css";
-
 function App() {
+const [mode,setMode]=useState(['white','black'])
+
+const modeChange = ()=>{
+    setMode([...mode].reverse());
+    console.log(mode);
+}
   return (
-    <div className="flex h-screen items-center justify-center bg-gradient-to-r from-purple-500 to-pink-500 text-white text-3xl font-bold">
-      🚀 Tailwind v3 is working!
+    <div className= {`bg-${mode[0]} w-screen h-screen text-${mode[1]}`}>
+    <button onClick={modeChange}>{mode[0]=='white'?'switch to dark mode':'switch to light mode'}</button>
     </div>
   );
 }
