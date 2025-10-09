@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap');
+:root{
+--seasalt: #f8f9faff;
+--antiflash-white: #e9ecefff;
+--platinum: #dee2e6ff;
+--french-gray: #ced4daff;
+--french-gray-2: #adb5bdff;
+--slate-gray: #6c757dff;
+--outer-space: #495057ff;
+--onyx: #343a40ff;
+--eerie-black: #212529ff;
+
+--isabelline: #edede9ff;
+--timberwolf: #d6ccc2ff;
+--linen: #f5ebe0ff;
+--champagne-pink: #e3d5caff;
+--pale-dogwood: #d5bdafff;
+
+--chad:#494949;
+
+background-color:  var(--seasalt);
+}
+.top-card{
+    margin: auto;
+    width: 75% ;
+    padding: 10px;
+    text-align: center;
+    font-size:2.6em;
+    color:var(--chad) ;
+    background-color:var(--isabelline);
+    border-radius: 3%;
+    letter-spacing: -8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.o{
+    color: var(--french-gray-2);
+    /* font-size: 1.2em; */
+}
+
+.logo{
+    width: 2em;
+    margin-bottom: -50px;
+}
+
+/* .logo-text {
+  font-size: 2.6rem;
+  color: var(--chad);
+  letter-spacing: -8px;
+  font-family: "Anton", sans-serif;
+} */
+
